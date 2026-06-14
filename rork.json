@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "TempoCal",
+      "path": "ios-tempocal",
+      "framework": "swift"
+    }
+  ],
+  "$schema": "https://rork.com/schema/rork.json"
+}
