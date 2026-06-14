@@ -111,9 +111,8 @@ struct ContentView: View {
             Task { await requestRemindersIfNeeded() }
             Task { await notificationService.reschedule(events: store.events) }
         }
-        .alert("Enable Calendar Access", isPresented: $showPermissionPrompt) {
-            Button("Enable") { Task { _ = await store.requestAccess() } }
-            Button("Don't Allow", role: .cancel) {}
+        .alert("Calendar Access", isPresented: $showPermissionPrompt) {
+            Button("Continue") { Task { _ = await store.requestAccess() } }
         } message: {
             Text("ChronoSync needs access to your calendars to show and manage events.")
         }
