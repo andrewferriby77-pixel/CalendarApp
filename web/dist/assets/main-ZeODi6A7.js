@@ -1,0 +1,1 @@
+import{t as e}from"./icon-D5g2CDWL.js";var t={3101:`/assets/IMG_3101-3wwAjiz9.png`,3104:`/assets/IMG_3104-5S-jzt9q.png`,3107:`/assets/IMG_3107-C0rBixuX.png`,icon:e};document.querySelectorAll(`[data-img]`).forEach(e=>{e.src=t[e.dataset.img]});var n=document.querySelector(`link[rel="icon"]`);n&&(n.href=e);
