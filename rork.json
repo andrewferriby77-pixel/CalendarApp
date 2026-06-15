@@ -7,7 +7,7 @@
     },
     {
       "name": "ChronoSync Web",
-      "path": "web",
+      "path": ".",
       "framework": "vite"
     }
   ],
