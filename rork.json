@@ -4,6 +4,11 @@
       "name": "TempoCal",
       "path": "ios-tempocal",
       "framework": "swift"
+    },
+    {
+      "name": "ChronoSync Web",
+      "path": "web",
+      "framework": "vite"
     }
   ],
   "$schema": "https://rork.com/schema/rork.json"
